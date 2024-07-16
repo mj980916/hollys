@@ -7,7 +7,7 @@ ul, ol, li{list-style: none;}
 
 table{border-collapse: collapse;}
 
-img{vertical-align: top;}
+img{vertical-align: middle;}
 
 .clear_fix::before,
 .clear_fix::after{
@@ -21,3 +21,4 @@ body{
     color: #333;
     font-family: "맑은 고딕" , "arial";
 }
+

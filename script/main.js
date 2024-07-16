@@ -1,6 +1,6 @@
 $(function(){
 
-    $(".main>li, sub_bg").hover(function(){
+    $(".main>li, .sub_bg").hover(function(){
         $(".sub, .sub_bg").stop().slideDown("fast");
     }, function(){
         $(".sub, .sub_bg").stop().slideUp();
@@ -13,6 +13,11 @@ $(function(){
         arrows: false,
         autoplaySpeed: 2000,
         adaptiveHeight: true,
+        fade: true
+    })
+
+    $(".close").click(function(){
+        $(".popup").hide();
     })
 
 })//jQ fin.
